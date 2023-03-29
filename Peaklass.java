@@ -77,7 +77,7 @@ public class Peaklass {
         System.out.println("Vali teema: \n 1 - Diskreetne matemaatika \n 2 - Programmeerimine \n 3 - Tartu Ülikool \n 4 - Majandus \n 5 - Andmebaasid \n 6 - Tõenäosusteooria ");
         String teema = sc.nextLine();
         System.out.println("Mitme punkti peale mängida soovid? \n 100 \n 200 \n 300 \n 400 \n 500");
-        int nr = Integer.parseInt(sc.nextLine()); //see oli vale
+        int nr = Integer.parseInt(sc.nextLine());
         if (teema.equalsIgnoreCase("1"))
             System.out.println(diskmat.annaküsimus(nr));
         if (teema.equalsIgnoreCase("2"))
